@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " I ",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_block" },
+    "R": { "item": "minecraft:blaze_rod" }
+  },
+  "result": {
+    "item": "mace_mod:mace"
+  }
+}
