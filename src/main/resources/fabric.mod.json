@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mace_mod",
+  "version": "${version}",
+  "name": "Mace",
+  "description": "Adds the mace, a heavy weapon with a smash attack that hits harder the further you fall.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.mace.MaceMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
