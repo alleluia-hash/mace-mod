@@ -1,4 +1,4 @@
-package com.example.mace;
+package com.alleluia.mace;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;

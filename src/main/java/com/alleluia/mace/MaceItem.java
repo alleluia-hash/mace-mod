@@ -1,4 +1,4 @@
-package com.example.mace;
+package com.alleluia.mace;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
@@ -54,11 +54,6 @@ public class MaceItem extends Item {
 	}
 
 	@Override
-	public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
-		return !miner.isCreative();
-	}
-
-	@Override
 	public boolean canRepair(ItemStack stack, ItemStack ingredient) {
 		return ingredient.isOf(Items.IRON_INGOT);
 	}
@@ -81,4 +76,4 @@ public class MaceItem extends Item {
 		}
 		return 22.0F + (fallDistance - 8.0F);
 	}
-      }
+}
